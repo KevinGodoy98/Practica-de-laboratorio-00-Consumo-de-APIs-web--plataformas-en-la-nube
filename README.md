@@ -60,4 +60,4 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 
 ## Copyright and License
 
-Copyright 2020 @Kevin Godoy. Code released under the [MIT](https://www.thecocktaildb.com/api.php) license.
+Copyright 2020 @Kevin Godoy. Code released under the [API](https://www.thecocktaildb.com/api.php) license.
