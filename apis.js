@@ -70,7 +70,6 @@ function BuscarCoctelID(id){
                     "<tr>"
                     detalles+=  "<tr>"+data[x] +"</tr>" +"<br>" ;
                     "</tr>"
-
                 }
                 "<tr>"
                 detalles+=  "<tr>"+Object.keys(data)+"</tr>" +"<br>" ;
