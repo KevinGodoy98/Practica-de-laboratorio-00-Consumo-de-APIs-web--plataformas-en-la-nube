@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar cocteles</title>
+    <script type="text/javascript" src="apis.js"></script>
+    <link rel="stylesheet" href="css/api.css" type="text/css" />
+    <link rel="stylesheet" href="css/tabla.css" type="text/css" />
+
+      <!--ESTILO PARA LA PAGINACION-->
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+</head>
+      
+<body>
+    <header>
+        <div class="logo">
+            <nav>
+                <a href="https://apilist.fun/collection/free-apis"><img src="https://hackernoon.com/hn-images/1*lAR9Uh_gJ7dp23e0vhy5Hg.png" alt="logo" height="100" width="100" style='margin-left: 68px;'> </a>
+                
+            </nav>
+            
+        </div>
+        <div class="buscar">
+            <input placeholder="Buscar por ingrediente ...." type="search" style="
+                  margin-top: 55px;
+                  margin-left: 135px;
+                  width: 680px; 
+
+            " id="ingrediente">
+        <input type="button"  id="btnBuscar"  name="btnBuscar" value="Buscar" onclick="BuscarCoctel()"> 
+        </div>
+    </header>
+
+
+    <div id="cocteles" style="margin-left: 25px;">
+      <table id="TablaCoctel" class="dat" >
+          <thead style="color: white;" >
+              <tr>
+                  <th>idDrink</th>
+                  <th>strDrink</th>
+                  <th>strCategory</th>
+                  <th>strInstructions</th>
+                  <th>strDrinkThumb</th>
+                  <th>More Details</th>
+              </tr>
+          </thead>
+          <tbody id="DetallesCoctel"></tbody>
+      </table>
+      <div style="margin-top: 80px; margin-left: 507px;">
+
+        <input type="button" value="Previous Page" style="width: 120px" onclick="RetrocederIngrediente()">
+          <input type="button" value="Next Page" style="width: 120px" onclick="AvanzarIngrediente()">
+
+      </div>
+      <br><br>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+              integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+      <script>
+          $(document).ready( function () {
+              $('#TablaCoctel').DataTable();
+          } );
+      </script>
+  </div>
+
+   <!--Espacio para  el resto de informacion del Coctel-->
+<div id="detallesId" class="detallesId">
+  <br>
+  <br>
+  <h1>Informacion del Coctel según el ID:</h1>
+</div>
+
+    <footer id="piepagina">
+        <p style="text-align: center;">Gracias por visitarnos <em>Vuelva pronto</em></p>
+        <p style="text-align: center;">Última Actualización:</p>
+        <p time datetime="2020-04-23" style="text-align: center;">Octubre 19 2020 6:50 p.m.</p>
+        <p style="text-align: center;"><cite>Kevin Godoy Mendía @2020 Derechos Reservados</cite></p>
+   </footer>
+</body>
+
+</html>
