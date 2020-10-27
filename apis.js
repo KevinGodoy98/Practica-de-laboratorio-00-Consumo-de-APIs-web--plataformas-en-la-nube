@@ -3,8 +3,10 @@ var pagina_actual=1;
 var nombre_ingr = "";
 function BuscarCoctel(){
     ingrediente = document.getElementById('ingrediente').value;
-    let url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='+ ingrediente;
+    console.log(ingrediente)
+    let url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i='+ ingrediente;
     metodoAJAX(url);
+
 }
 function metodoAJAX(url) {
     $(document).ready( function () {
@@ -31,12 +33,10 @@ if (ing ==""){
             console.log(data)
             data.Search.forEach(coctel =>{
                     detalles += "<tr>" +
-                        "<td>" + coctel.idDrink + "</td>" +
                         "<td>" + coctel.strDrink + "</td>" +
-                        "<td>" + coctel.strCategory + "</td>" +
-                        "<td>" + coctel.strInstructions + "</td>" +
                         "<td><img src=" + coctel.strDrinkThumb + " style='width:200px;height:200px;'></td>" +
-                        "<td><input type='button' value='More Details' id=" + coctel.idDrink + " onclick=BuscarCoctelID(this.id)></td>" +
+                        "<td><input type='button' value='Mas detalles' id=" + coctel.idDrink + " onclick=BuscarCoctelID(this.id)></td>" +
+                        "<td>" + coctel.idDrink + "</td>" +
                         "</tr>";
                 });
             document.getElementById("DetallesCoctel").innerHTML = detalles;
@@ -87,11 +87,11 @@ function BuscarCoctelID(id){
 
 function AvanzarIngrediente() {
     pagina_actual = parseInt(pagina_actual)+1;
-    let url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='+ nombre_ingr + '&page='+ pagina_actual;
+    let url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i='+ nombre_ingr + '&page='+ pagina_actual;
     metodoAJAX(url);
 }
 function RetrocederIngrediente() {
     pagina_actual = parseInt(pagina_actual)-1;
-    let url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='+ nombre_ingr + '&page='+ pagina_actual;
+    let url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i='+ nombre_ingr + '&page='+ pagina_actual;
     metodoAJAX(url);
 }
