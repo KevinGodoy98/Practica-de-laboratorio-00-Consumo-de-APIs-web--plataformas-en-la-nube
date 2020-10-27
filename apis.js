@@ -5,10 +5,10 @@ function BuscarCoctel(){
     ingrediente = document.getElementById('ingrediente').value;
     console.log(ingrediente)
     let url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i='+ ingrediente;
-    metodoAJAX(url);
+    AJAX(url);
 
 }
-function metodoAJAX(url) {
+function AJAX(url) {
     $(document).ready( function () {
         $('#TablaCoctel').DataTable();
     } );
@@ -87,10 +87,10 @@ function BuscarCoctelID(id){
 function AvanzarIngrediente() {
     pagina_actual = parseInt(pagina_actual)+1;
     let url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i='+ nombre_ingr + '&page='+ pagina_actual;
-    metodoAJAX(url);
+    AJAX(url);
 }
 function RetrocederIngrediente() {
     pagina_actual = parseInt(pagina_actual)-1;
     let url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i='+ nombre_ingr + '&page='+ pagina_actual;
-    metodoAJAX(url);
+    AJAX(url);
 }
