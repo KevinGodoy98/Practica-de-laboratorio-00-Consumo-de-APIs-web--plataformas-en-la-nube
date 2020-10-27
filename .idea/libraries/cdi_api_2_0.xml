@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="cdi-api-2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Escritorio/LEO/cdi-api-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Escritorio/LEO/javax.el-api-3.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Escritorio/LEO/javax.inject-1.jar!/" />
+      <root url="jar://$USER_HOME$/Escritorio/LEO/javax.interceptor-api-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Escritorio/LEO/javax.json-api-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Escritorio/LEO/javax.json.bind-api-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Escritorio/LEO/yasson-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

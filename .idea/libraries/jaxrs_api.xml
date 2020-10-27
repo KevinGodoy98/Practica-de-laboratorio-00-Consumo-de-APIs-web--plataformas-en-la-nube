@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaxrs-api">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Escritorio/jaxrs-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

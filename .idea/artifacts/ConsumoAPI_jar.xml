@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ConsumoAPI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConsumoAPI_jar</output-path>
+    <root id="archive" name="ConsumoAPI.jar">
+      <element id="module-output" name="ConsumoAPI" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/jaxrs-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Descargas/gson-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javax.json-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/LEO/cdi-api-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/LEO/javax.el-api-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/LEO/javax.inject-1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/LEO/javax.interceptor-api-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/LEO/javax.json-api-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/LEO/javax.json.bind-api-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/LEO/yasson-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Escritorio/javax.json.bind-api-1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
