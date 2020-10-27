@@ -1,7 +1,7 @@
 var datos;
 function CargarCoctel(name) {
     var detalles ="";
-    $.get("https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin&plot=full", function (rawdatos) {
+    $.get("https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin", function (rawdatos) {
         var rawstring = JSON.stringify(rawdatos);
         datos = JSON.parse(rawstring);
         console.log(datos);

@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Buscar Cocteles</title>
-    <script type="text/javascript" src="apis.js"></script>
+   <script type="text/javascript" src="apis.js"></script>
+    
     <link rel="stylesheet" href="css/api.css" type="text/css" />
     <link rel="stylesheet" href="css/tabla.css" type="text/css" />
 
       <!--ESTILO PARA LA PAGINACION-->
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
 </head>
       
 <body>
@@ -27,7 +28,8 @@
                   width: 680px; 
 
             " id="ingrediente">
-        <input type="button"  id="btnBuscar"  name="btnBuscar" value="Buscar" onclick="BuscarCoctel()"> 
+    <input type="button"  id="btnBuscar"  name="btnBuscar" value="Buscar" onclick="BuscarCoctel()"> 
+       <!-- <input type="button"  id="btnBuscar"  name="btnBuscar" value="Buscar">-->
         </div>
     </header>
 
@@ -46,8 +48,8 @@
       </table>
       <div style="margin-top: 80px; margin-left: 507px;">
 
-        <input type="button" value="←" style="width: 120px" onclick="RetrocederIngrediente()">
-          <input type="button" value="→" style="width: 120px" onclick="AvanzarIngrediente()">
+        <input type="button" value="← Anterior" style="width: 120px" onclick="RetrocederIngrediente()">
+          <input type="button" value="→ Siguiente" style="width: 120px" onclick="AvanzarIngrediente()">
 
       </div>
       <br>
@@ -77,6 +79,7 @@
         <p time datetime="2020-04-23" style="text-align: center;">Octubre 19 2020 6:50 p.m.</p>
         <p style="text-align: center;"><cite>Kevin Godoy Mendía @2020 Derechos Reservados</cite></p>
    </footer>
+   <!--<script type="text/javascript" src="Con.js"></script>-->
 </body>
 
 </html>

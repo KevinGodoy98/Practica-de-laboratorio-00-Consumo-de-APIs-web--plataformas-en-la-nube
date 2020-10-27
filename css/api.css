@@ -1,8 +1,11 @@
+html{
+    background-color: darkgreen;
+}
 .logo{
     float: left;
 }
 header{
-    background-color: #afbdb363;
+    background-color: #343a40;
     height: 100px;
     margin-top: -6px;
 }
@@ -34,7 +37,7 @@ aside{
     padding: 62px;
 }
 footer{
-    background-color: #afbdb363;
+    background-color: #343a40;
     padding: 0px;
     margin-top: 552px;
     clear: both;
@@ -42,6 +45,7 @@ footer{
     border-bottom: outset;
     border-color: darkslategrey;
     border-top: 2px solid black;
+    color: white;
 }
 .error {
     color: red;
