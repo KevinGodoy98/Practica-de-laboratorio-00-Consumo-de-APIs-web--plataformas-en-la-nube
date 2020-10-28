@@ -39,7 +39,7 @@ aside{
 footer{
     background-color: #343a40;
     padding: 0px;
-    margin-top: 552px;
+    margin-top: 170px;
     clear: both;
     border: rgb(86, 87, 143);
     border-bottom: outset;
@@ -52,6 +52,13 @@ footer{
     font-size: 8px;
     }
 h2{
-    margin-left: -251px;
+    margin-left: 0px;
     margin-top: -37px;
+}
+.sectionB{
+    margin-top:0px;
+    border: rgb(86, 87, 143);
+    padding:10px;
+    background:#e6864e;
+    text-align: center;
 }
