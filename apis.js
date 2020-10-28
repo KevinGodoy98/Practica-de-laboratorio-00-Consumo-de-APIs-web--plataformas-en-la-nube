@@ -68,46 +68,7 @@ if (ing ==""){
             // 0 1 
             // 0 1 2 3 4 5 6 7 8 9 .. 10 11 12 13 14 15..
             // i >= 1 10
-            /*
             
-            let contador = 0;
-            let resultados = []
-            for(let i of data.drinks){
-                if((contador == 0 ? 1 : contador) % 10 != 0){
-                    detalles += "<tr>" +
-                       "<td>" + i.strDrink + "</td>" +
-                       "<td><img src=" + i.strDrinkThumb + " style='width:100px;height:100px;'></td>" +
-                        "<td>" + i.idDrink + "</td>" +
-                        "<td><input type='button' value='Mas detalles' id=" + i.idDrink + " onclick=BuscarCoctelID(this.id)></td>" +
-                        "</tr>";
-                    resultados.push(detalles);
-                }else{
-                    console.log('Me llaman')
-                    contador = 0;
-                    paginas.push(resultados);
-                    resultados = [];
-                }
-                contador++;
-            }
-            
-            console.log('Longitud de las paginas -->' + paginas.length);
-            for (let i = 0; i < paginas.length; i++) {
-                console.log(i + ' ->>'+paginas[i].length);
-                
-            }
-            */
-        
-            
-            
-       /*for (let i of data.drinks) {
-                detalles += "<tr>" +
-                       "<td>" + i.strDrink + "</td>" +
-                       "<td><img src=" + i.strDrinkThumb + " style='width:100px;height:100px;'></td>" +
-                        "<td>" + i.idDrink + "</td>" +
-                        "<td><input type='button' value='Mas detalles' id=" + i.idDrink + " onclick=BuscarCoctelID(this.id)></td>" +
-                        "</tr>";
-                   console.log(detalles);
-            }*/
            
        }
         }
