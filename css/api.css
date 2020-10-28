@@ -39,7 +39,7 @@ aside{
 footer{
     background-color: #343a40;
     padding: 0px;
-    margin-top: 170px;
+    margin-top: 145px;
     clear: both;
     border: rgb(86, 87, 143);
     border-bottom: outset;
@@ -61,4 +61,5 @@ h2{
     padding:10px;
     background:#e6864e;
     text-align: center;
+    border: solid;
 }
