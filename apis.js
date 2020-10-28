@@ -164,8 +164,6 @@ function BuscarCoctelID(id){
                     detalles+=           "<tr>"+j.strIngredient2 +"</tr>" +"<br>" ;
                     detalles+=          "<tr>"+j.strIngredient3 +"</tr>" +"<br>" ;
                     detalles+=          "<tr>"+j.strIngredient4 +"</tr>" +"<br>" ;
-                    detalles+=         "<tr>"+j.strIngredient4 +"</tr>" +"<br>" ;
-
                     "</tr>"
 
                 }
