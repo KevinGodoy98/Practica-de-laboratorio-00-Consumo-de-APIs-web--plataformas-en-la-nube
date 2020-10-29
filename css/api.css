@@ -24,10 +24,6 @@ input{
     width: 150px;
     margin-left: 40px;
 }
-aside{
-    float: left;
-    padding: 62px;
-}
 footer{
     background-color: #343a40;
     padding: 0px;
