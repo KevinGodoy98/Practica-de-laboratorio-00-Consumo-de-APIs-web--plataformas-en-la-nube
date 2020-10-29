@@ -1,7 +1,7 @@
 # Practica-de-laboratorio-00-Consumo-de-APIs-web--plataformas-en-la-nube
 Consumo de APIs mediante AJAX y JS
 # [Estructura]
-![Captura de Pantalla 2020-04-25 a la(s) 22.07.05.png]
+![Captura de Pantalla 2020-04-25 a la(s) 22.07.05.png] (https://raw.githubusercontent.com/KevinGodoy98/Practica-de-laboratorio-00-Consumo-de-APIs-web--plataformas-en-la-nube/main/Captura%20de%20Pantalla%202020-10-28%20a%20la(s)%2017.31.58.png)
 # [informe]
 4. Desarrollar una aplicación con HTML + CSS + Javascript + Web Services para buscar información y visualizar toda la información disponible a través de la API.
 
