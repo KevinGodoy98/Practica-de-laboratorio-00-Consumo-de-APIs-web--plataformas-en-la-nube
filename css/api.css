@@ -20,14 +20,6 @@ body{
     padding: 0;
     
 }
-.img1{
-    width: 426px;
-    height: 500px;
-    float: right;
-    margin-right: -422px;
-    margin-top: 8px;
-}
-
 input{
     width: 150px;
     margin-left: 40px;
@@ -47,10 +39,6 @@ footer{
     border-top: 2px solid black;
     color: white;
 }
-.error {
-    color: red;
-    font-size: 8px;
-    }
 h2{
     margin-left: 0px;
     margin-top: -37px;
