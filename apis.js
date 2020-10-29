@@ -144,17 +144,21 @@ function Botones(){
   
     if(globalThis.indexActual+1 == globalThis.paginas.length){
         document.getElementById('Siguiente').disabled=true;
+    }else{
         document.getElementById('Anterior').disabled=false;
-    }else if(globalThis.indexActual==0){
+    } if(globalThis.indexActual<0){
         document.getElementById('Anterior').disabled=true;
-        document.getElementById('Siguiente').disabled=false;
+    }else{
+        if(globalThis.indexActual>=0){
+            document.getElementById('Siguiente').disabled=false;
+        }
+      
+
     }
-    
-    
     
 }
 function AvanzarIngrediente() {
-   Botones();
+  Botones();
    globalThis.indexActual ++;
    console.log('<---------------------->');
    mostrarResultados();
