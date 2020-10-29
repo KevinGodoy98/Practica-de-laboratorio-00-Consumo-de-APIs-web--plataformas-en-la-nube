@@ -15,7 +15,7 @@ Consumo de APIs mediante AJAX y JS
 
 - Creamos las etiquetas meta que forman parte de nuestro encabezado de la pagina web, en donde indicamos la primera sentencia hace referencia al formato de texto que va a tomar la web, en este caso utf-8.
 
-- Finalmente para cerrar la etiqueta head, procedemos a referenciar nuestros archivos css api.css, tabla.css, y usamos la etiqueta <a href> para la ultima debido a que se encuentra publica en la web; hacemos lo mismo con los archivos de javascript Conexión.js y apis.js.
+- Finalmente para cerrar la etiqueta head, procedemos a referenciar nuestros archivos css api.css, tabla.css, y usamos la etiqueta a href para la ultima debido a que se encuentra publica en la web; hacemos lo mismo con los archivos de javascript Conexión.js y apis.js.
 
 - Procedemos al cuerpo o contenido de nuestra pagina mediante la etiqueta <body>.Primeramente le damos un encabezado por medio de la etiqueta <header>.Esta etiqueta esta dividida en 3 partes las cuales son: la clase logo y buscar, mientras que la ultima parte es el boton de busqueda con su id=”btnBuscar”.
 
