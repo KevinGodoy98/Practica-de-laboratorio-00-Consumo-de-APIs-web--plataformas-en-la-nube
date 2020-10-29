@@ -78,17 +78,6 @@ Con el boton<input type=”button” >de busqueda  con los valores anterior y si
 -	Y creamos una variable llamada url donde vamos a guardar el enlace de nuestra api , concatenandolo con el valor ingresado por el usuario.
 -	Llamamos a nuestro metodo ajax y le pasamos como parametro la url para que proceda a realizar la busqueda.
 
-
-
-
-
-
-
-
-
-
-  
-
 -	Creamos nuestra segunda funcion la cual es la funcion Ajax en la cual creamos una variable ing donde mediante la propiedad getElementBy donde recuperamos el valor ingresado en la barra de busqueda;creamos una variable detalles donde vamos almacenar los datos recuperados de la api
 -	Procedemos a preguntar si nuestra variable de ingrediente es igual a vacio, de serlo me manda una alerta indicandome que el campo esta vacio , sino aplica ajax y transforma el texto a formato json .
 -	Al campo de paginas totales , indico que va a ser igual al tamaño de los datos de la api.Declaramos que nuestras paginas totales van a estar dividida para 10.
